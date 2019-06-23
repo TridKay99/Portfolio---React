@@ -13,6 +13,11 @@ body {
   width: 100%;
 }
 
+.App {
+  height: 100%;
+  width: 100%
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -42,5 +47,33 @@ li {
   color:#66f6f1
 }
 
-/* Home Page css - not including navbar */
 
+
+/* Home Page css - not including navbar */
+.home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutMeBox {
+  border: 2px solid #66f6f1;
+  background: black;
+  color: #66f6f1;
+  height: 60%;
+  margin-right: 20px;
+  width: 40%;
+  padding: 10px;
+}
+
+.contactBox {
+  border: 2px solid #66f6f1;
+  background: black;
+  color: #66f6f1;
+  height: 60%;
+  width: 40%;
+  padding: 10px;
+}
